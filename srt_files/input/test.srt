@@ -1,66 +1,68 @@
-﻿4
-00:00:05,797 --> 00:00:07,765
-[LOUD NOISES] Square brackets
+﻿1
+00:00:01,000 --> 00:00:03,000
+[MUSIC PLAYING] Test square brackets removal
+[LAUGHTER] Multiple square brackets
 
-4
-00:00:07,841 --> 00:00:10,185
-(LOUD NOISES) Round brackets
-
-7
-00:00:10,260 --> 00:00:11,682
-CARRIE: Uppercase word followed by colon
+2
+00:00:03,500 --> 00:00:05,500
+(DOOR SLAMS) Test round brackets removal
+(PHONE RINGS) Multiple round brackets
 
 3
-00:00:11,762 --> 00:00:15,232
-Carrie: Uppercase and lowercase word followed by colon
+00:00:06,000 --> 00:00:08,000
+NARRATOR: Test uppercase followed by colon
+JOHN: Another uppercase test
+
+4
+00:00:08,500 --> 00:00:10,500
+Character: Test word ending with colon
+Sarah: Another colon test
 
 5
-00:00:15,307 --> 00:00:17,059
-test lyrics (there should be no lines under this line)
-♪ test lyrics ♪
+00:00:11,000 --> 00:00:13,000
+♪ Testing music character removal ♪
+♪ Second line with music ♪
 
-47
-00:00:17,142 --> 00:00:19,361
-<b>b tag</b>
+6
+00:00:13,500 --> 00:00:15,500
+   Test   extra   whitespace   removal   
+      Multiple    spaces    here   
 
 7
-00:00:19,436 --> 00:00:22,235
-    Test  whitespace   .   
+00:00:16,000 --> 00:00:18,000
+<i>Test italic tag removal</i>
+<b>Test bold tag removal</b>
 
-73
-00:00:01,000 --> 00:00:2,000
+8
+00:00:18,500 --> 00:00:20,500
+l'm testing lowercase L to I conversion
+l'll also test l've and lf and lt's
 
-23
-00:00:24,942 --> 00:00:28,321
-l should be an I.
-l'm should be I'm
-l'll should be I'll
-l've should be I've
-lf should be If
-lt should be It
-lt's should be It's
+9
+00:00:21,000 --> 00:00:23,000
+defense testing US/UK spelling
+colorful neighbor
 
 10
-00:00:01,000 --> 00:00:02,000
-Test delay
+00:00:23,500 --> 00:00:25,500
+Test single - dash conversion
+No-- space double dash--test
 
-120
-00:00:01,000 --> 00:00:02,000
-No-- double -- dashes--
+11
+00:00:26,000 --> 00:00:28,000
+[]{}()/\|#^*_<>
+Testing special character removal
 
-23
-00:00:24,942 --> 00:00:28,321
-coloring
-colorful
-color
-neighbor
-Defense
-defense
-<i>axis with i tag
-ax
+12
+00:00:28,500 --> 00:00:30,500
+Test subtitle delay
+This should be delayed by delay_ms
 
-23
-00:00:24,942 --> 00:00:28,321
-[]{}()/\|#^*_<
-Check for unwanted characters
+13
+00:00:31,000 --> 00:00:33,000
 
+
+14
+00:00:33,500 --> 00:00:35,500
+Test empty subtitle removal
+Above subtitle should be removed
