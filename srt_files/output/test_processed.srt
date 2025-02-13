@@ -18,42 +18,42 @@ Another uppercase test
 Test word ending with colon
 Another colon test
 
-6
+5
 00:00:13,700 --> 00:00:15,700
 Test extra whitespace removal
   Multiple spaces here
 
-7
+6
 00:00:16,200 --> 00:00:18,200
 Test italic tag removal
 Test bold tag removal
 
-8
+7
 00:00:18,700 --> 00:00:20,700
 I'm testing lowercase L to I conversion
 I'll also test I've and If and It's
 
-9
+8
 00:00:21,200 --> 00:00:23,200
 defence testing US/UK spelling
 colourful neighbour
 
-10
+9
 00:00:23,700 --> 00:00:25,700
 Test single - dash conversion
 No- space double dash-test
 
-11
+10
 00:00:26,200 --> 00:00:28,200
 {}/\|#^*_<>
 Testing special character removal
 
-12
+11
 00:00:28,700 --> 00:00:30,700
 Test subtitle delay
 This should be delayed by delay_ms
 
-14
+12
 00:00:33,700 --> 00:00:35,700
 Test empty subtitle removal
 Above subtitle should be removed
