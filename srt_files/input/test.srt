@@ -1,0 +1,66 @@
+﻿4
+00:00:05,797 --> 00:00:07,765
+[LOUD NOISES] Square brackets
+
+4
+00:00:07,841 --> 00:00:10,185
+(LOUD NOISES) Round brackets
+
+7
+00:00:10,260 --> 00:00:11,682
+CARRIE: Uppercase word followed by colon
+
+3
+00:00:11,762 --> 00:00:15,232
+Carrie: Uppercase and lowercase word followed by colon
+
+5
+00:00:15,307 --> 00:00:17,059
+test lyrics (there should be no lines under this line)
+♪ test lyrics ♪
+
+47
+00:00:17,142 --> 00:00:19,361
+<b>b tag</b>
+
+7
+00:00:19,436 --> 00:00:22,235
+    Test  whitespace   .   
+
+73
+00:00:01,000 --> 00:00:2,000
+
+23
+00:00:24,942 --> 00:00:28,321
+l should be an I.
+l'm should be I'm
+l'll should be I'll
+l've should be I've
+lf should be If
+lt should be It
+lt's should be It's
+
+10
+00:00:01,000 --> 00:00:02,000
+Test delay
+
+120
+00:00:01,000 --> 00:00:02,000
+No-- double -- dashes--
+
+23
+00:00:24,942 --> 00:00:28,321
+coloring
+colorful
+color
+neighbor
+Defense
+defense
+<i>axis with i tag
+ax
+
+23
+00:00:24,942 --> 00:00:28,321
+[]{}()/\|#^*_<
+Check for unwanted characters
+

@@ -1,0 +1,58 @@
+4
+00:00:05,997 --> 00:00:07,965
+Square brackets
+
+4
+00:00:08,041 --> 00:00:10,385
+Round brackets
+
+7
+00:00:10,460 --> 00:00:11,882
+Uppercase word followed by colon
+
+3
+00:00:11,962 --> 00:00:15,432
+Uppercase and lowercase word followed by colon
+
+47
+00:00:17,342 --> 00:00:19,561
+b tag
+
+7
+00:00:19,636 --> 00:00:22,435
+Test whitespace.
+
+23
+00:00:25,142 --> 00:00:28,521
+I should be an I.
+I'm should be I'm
+I'll should be I'll
+I've should be I've
+If should be If
+It should be It
+It's should be It's
+
+10
+00:00:01,200 --> 00:00:02,200
+Test delay
+
+120
+00:00:01,200 --> 00:00:02,200
+No- double - dashes-
+
+23
+00:00:25,142 --> 00:00:28,521
+colouring
+colourful
+colour
+neighbour
+Defence
+defence
+axis with i tag
+axe
+
+23
+00:00:25,142 --> 00:00:28,521
+{}/\|#^*_<
+Check for unwanted characters
+

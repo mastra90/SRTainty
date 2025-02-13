@@ -1,0 +1,8 @@
+Search for uppercase words that contain 2 or more letters:
+\b[A-Z]{2,}\b
+
+Search for any case words that contain 2 or more letters that end in ':'
+\b[A-Za-z]{2,}:
+
+Search for a stand alone hyphen with no white space or characters after it.
+(?<=^\s*)-\s*$
