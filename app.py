@@ -42,12 +42,10 @@ def process_subtitles(input_file, output_file, actions, delay_ms=0):
     renumber_subtitles(current_file, output_file)
 
 if __name__ == "__main__":
-    input_file_name = 'test'
-
+    srt_filename = 'test'
     extension = '.srt'
-    output_file_name = f'{input_file_name}'
-    input_file = f'srt_files/input/{input_file_name}{extension}'
-    output_file = f'srt_files/output/{output_file_name}_processed{extension}'
+    input_file = f'srt_files/input/{srt_filename }{extension}'
+    output_file = f'srt_files/output/{srt_filename }_processed{extension}'
 
     actions = [
         'remove_square_bracketed_text',
