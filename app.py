@@ -10,6 +10,7 @@ from functions.remove_lines_with_music_char import remove_lines_with_music_char
 from functions.syntax_corrections import syntax_corrections
 from functions.double_dashes import double_dashes
 from functions.check_special_chars import check_special_chars
+from functions.remove_italics_tags_and_text import remove_italics_tags_and_text
 
 
 def process_subtitles(input_file, output_file, actions, delay_ms=0):
@@ -28,6 +29,7 @@ def process_subtitles(input_file, output_file, actions, delay_ms=0):
         'syntax_corrections': syntax_corrections,
         'double_dashes': double_dashes,
         'check_special_chars': check_special_chars,
+        'remove_italics_tags_and_text': remove_italics_tags_and_text,
     }
 
     for action in actions:
@@ -44,10 +46,11 @@ def process_subtitles(input_file, output_file, actions, delay_ms=0):
 if __name__ == "__main__":
     srt_filename = 'test'
     extension = '.srt'
-    input_file = f'srt_files/input/{srt_filename }{extension}'
-    output_file = f'srt_files/output/{srt_filename }_processed{extension}'
+    input_file = f'srt_files/input/{srt_filename}{extension}'
+    output_file = f'srt_files/output/{srt_filename}_processed{extension}'
 
     actions = [
+        #'remove_italics_tags_and_text',
         'remove_square_bracketed_text',
         'remove_bracketed_text',
         'remove_uppercase_colon',
@@ -58,7 +61,7 @@ if __name__ == "__main__":
         'spelling_corrections',
         'syntax_corrections',
         'check_special_chars',
-        'delay_subtitles'
+        #'delay_subtitles'
     ]
 
     delay_ms = 200 # Delay in milliseconds
