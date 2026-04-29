@@ -20,11 +20,15 @@ var/
 .installed.cfg
 *.egg
 
+temp.srt
+
 # IDE
 .vscode/
 .idea/
 
 # Keep the directories but ignore contents
+srt_files/input/*
+srt_files/output/*
 !srt_files/input/.gitkeep
 !srt_files/output/.gitkeep
 

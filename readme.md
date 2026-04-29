@@ -51,7 +51,7 @@ your-app-directory/
 
 3. Run the application:
 ```bash
-python app.py
+python3 app.py
 ```
 
 4. Find your processed subtitle file in `srt_files/output/` with "_processed" appended to the filename
